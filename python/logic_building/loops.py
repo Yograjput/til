@@ -42,7 +42,7 @@ while i <= 10:
 '''Calculate and print the sum of first n natural numbers.'''
 i=0
 sum=0
-n=int(input(":"))
+n=int(input("Enter the number:"))
 while i<n :
     i+=1
     sum+=i
