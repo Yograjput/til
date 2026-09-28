@@ -39,3 +39,11 @@ while i <= 10:
     i+=1
 
 
+'''Calculate and print the sum of first n natural numbers.'''
+i=0
+sum=0
+n=int(input(":"))
+while i<n :
+    i+=1
+    sum+=i
+print(sum)
