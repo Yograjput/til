@@ -18,4 +18,24 @@ while i > 0:
     print(i)
     i -= 1
 
+'''Print All Even Numbers between 1 to 100.'''
+i=0
+while i<100:
+    i+=2
+    print(i)
+
+'''Print All odd numbers between 1 and 100.'''
+i=1
+while i<100:
+    print(i)
+    i+=2
+    
+'''Print the multiplication table of a given number from n*1 to n*10.'''
+i=1
+n=int(input("Enter the number:"))
+while i <= 10:
+    c=n*i
+    print(c)
+    i+=1
+
 
