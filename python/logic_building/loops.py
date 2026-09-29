@@ -61,3 +61,21 @@ while i <= n:
     i += 1
 
 print("Sum of even numbers:", total)
+
+
+
+'''Calculate and print the sum of all even numbers from 1 up to n.'''
+n = int(input("Enter n: "))
+
+i = 1
+total = 0
+
+while i <= n:
+    if i % 2 != 0:
+        total += i
+    else:
+        total += 0
+
+    i += 1
+
+print("Sum of odd numbers:", total)
