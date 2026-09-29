@@ -64,7 +64,7 @@ print("Sum of even numbers:", total)
 
 
 
-'''Calculate and print the sum of all even numbers from 1 up to n.'''
+'''Calculate and print the sum of all odd numbers from 1 up to n.'''
 n = int(input("Enter n: "))
 
 i = 1
