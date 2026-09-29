@@ -79,3 +79,15 @@ while i <= n:
     i += 1
 
 print("Sum of odd numbers:", total)
+
+'''Calculate and print the factorial of the given number.'''
+n = int(input("Enter n: "))
+
+i = 1
+c=1
+
+while i <= n:
+    c=c*i
+    i += 1
+
+print(c)
