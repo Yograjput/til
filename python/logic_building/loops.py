@@ -104,4 +104,4 @@ while n>0 :
     n=n//10
 
 
-print(c)
+print("Product of all digits of a number:",c)
