@@ -91,3 +91,17 @@ while i <= n:
     i += 1
 
 print(c)
+
+
+'''Find and print the product of all digits of a given number.'''
+n = int(input("Enter a number:"))
+i=1
+c=1
+
+while n>0 :
+    i=n%10
+    c=c*i
+    n=n//10
+
+
+print(c)
