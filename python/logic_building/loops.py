@@ -120,4 +120,19 @@ while n>0 :
 
 print("Total number of all digits of a number:",c)
 
+'''Find and print the sum of all digits of a number.'''
+n = int(input("Enter a number:"))
+i=0
+c=0
+
+while n>0 :
+    i=n%10
+    c=c+i
+    n=n//10
+
+
+print("Sum of all the digits of entered number:",c)
+
+
+
 
