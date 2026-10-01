@@ -105,3 +105,19 @@ while n>0 :
 
 
 print("Product of all digits of a number:",c)
+
+
+'''Count and print the total number of digits in a given number.'''
+n = int(input("Enter a number:"))
+i=0
+c=0
+
+while n>0 :
+    i=n%10
+    c=c+1
+    n=n//10
+
+
+print("Sum of all digits of a number:",c)
+
+
