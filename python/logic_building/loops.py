@@ -118,6 +118,6 @@ while n>0 :
     n=n//10
 
 
-print("Sum of all digits of a number:",c)
+print("Total number of all digits of a number:",c)
 
 
