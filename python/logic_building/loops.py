@@ -195,6 +195,8 @@ if c==int(n):
 else:
   print("This is Not a armstrong number.")
 
+
+
 '''Check whether the entered number is a Perfect Number.'''
 n=int(input("Enter the number:"))
 
