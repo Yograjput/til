@@ -176,7 +176,24 @@ if d==c:
 else:
   print("No Palindromes!")
 
+'''Check whether the entered number is a palindrome or not.'''
+n=input("Enter a number: ")
+m=len(n)
+i=1
+c=0
+b=int(n)
 
+
+while b>0:
+  i=b%10
+  c=c+(i)**m
+  b=b//10
+
+
+if c==int(n):
+  print("This is a Armstrong number.")
+else:
+  print("This is Not a armstrong number.")
 
 
 
