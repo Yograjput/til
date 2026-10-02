@@ -159,6 +159,22 @@ if is_negative==True:
 
 print(c)
 
+'''Check whether a given number is a palindrome or not.'''
+n=int(input("Enter a number: "))
+d=n  
+c=0
+
+
+while n>0:
+  i=n%10
+  c=c*10+i
+  n=n//10
+
+
+if d==c:
+  print("We've got a palindrome!")
+else:
+  print("No Palindromes!")
 
 
 
