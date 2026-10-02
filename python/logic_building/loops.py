@@ -133,6 +133,35 @@ while n>0 :
 
 print("Sum of all the digits of entered number:",c)
 
+'''Reverse the given number and print the reversed value.'''
+n=int(input("Enter a number: "))
+
+
+is_negative= False
+if n<0:
+  is_negative= True
+  n=-n
+  
+c=0
+
+
+
+
+while n>0:
+  i=n%10
+  c=c*10+i
+  n=n//10
+
+if is_negative==True: 
+  c=-c
+
+
+
+print(c)
+
+
+
+
 
 
 
