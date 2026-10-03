@@ -218,6 +218,19 @@ if c==p:
 else:
   print("Not a perfect Number")
 
+'''Print all the prime numbers from 1 to 100.'''
+n=1
+while n<=100:
+  fac=0
+  i=1
+  while i<=n:
+    if n%i==0:
+      fac=fac+1
+      i=i+1
+    else:
+      i=i+1
 
+  if fac==2:
+    print(n)
 
-
+  n=n+1
