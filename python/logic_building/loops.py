@@ -234,3 +234,23 @@ while n<=100:
     print(n)
 
   n=n+1
+
+
+'''Check whether the entered number is prime number or not.'''
+n=int(input("Enter a number:"))
+
+fac=0
+i=1
+while i<=n:
+  if n%i==0:
+    fac=fac+1
+    i=i+1
+  else:
+    i=i+1
+
+
+if fac==2:
+  print("This is a prime number")
+else:
+  print("This is not a prime number.")
+  
