@@ -316,4 +316,16 @@ while i<=b:
   else:
     i=i+1
 
+'''Print all the factors of a given number.'''
+a=int(input("Enter a number:"))
+
+i=1
+
+while i<=a:
+  if a%i==0:
+    print(i)
+    i=i+1
+  else:
+    i=i+1
+
 
