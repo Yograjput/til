@@ -286,3 +286,24 @@ while i < n:
 
 print("The final sum is:", r)
 
+'''Print the squares of numbers from 1 to n.'''
+n=int(input("Enter a number:"))
+i=0
+c=1
+while i<n:
+  i=i+1
+  c=i**2
+  print(c)
+
+'''Print the cube of numbers from 1 to n.'''
+n=int(input("Enter a number:"))
+i=0
+c=1
+while i<n:
+  i=i+1
+  c=i**3
+  print(c)
+
+
+
+
