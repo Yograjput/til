@@ -267,3 +267,22 @@ while i<n:
   a=b
   b=c
   i=i+1
+
+
+'''Print the sum of Fibonacci series upto n terms.'''
+n = int(input("Enter a number: "))
+i = 0
+a = 0
+b = 1
+c = 0
+r = 0  
+
+while i < n:
+    c = a + b
+    r = r + c  
+    a = b
+    b = c
+    i = i + 1
+
+print("The final sum is:", r)
+
