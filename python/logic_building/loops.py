@@ -254,3 +254,16 @@ if fac==2:
 else:
   print("This is not a prime number.")
   
+'''Print the Fibonacci Series upto n terms.'''
+n=int(input("Enter a number:"))
+i=0
+
+a=0
+b=1
+c=1
+while i<n:
+  print(a)
+  c=a+b
+  a=b
+  b=c
+  i=i+1
