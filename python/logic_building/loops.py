@@ -304,6 +304,16 @@ while i<n:
   c=i**3
   print(c)
 
-
+'''Print the numbers between a and b that are divisible by 7.'''
+a=int(input("Enter a number:"))
+b=int(input("Enter a number greater than first number:"))
+i=a
+c=0
+while i<=b:
+  if i%7==0:
+    print(i)
+    i=i+1
+  else:
+    i=i+1
 
 
