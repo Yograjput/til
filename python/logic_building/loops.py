@@ -328,4 +328,19 @@ while i<=a:
   else:
     i=i+1
 
+'''Print the sum of all factors of a given number.'''
+a=int(input("Enter a number:"))
+
+i=1
+s=0
+while i<=a:
+  if a%i==0:
+    s=s+i
+    i=i+1
+  else:
+    i=i+1
+
+
+print(s)
+
 
