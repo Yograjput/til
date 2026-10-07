@@ -343,4 +343,17 @@ while i<=a:
 
 print(s)
 
+'''Print the HCF of two given numbers.'''
+a=int(input("Enter a number:"))
+b=int(input("Enter a number:"))
+
+i=1
+while i!=0:
+
+        i=a%b
+        a=b
+        b=i
+print("HCF:",a)
+
+      
 
