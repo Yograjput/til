@@ -355,5 +355,20 @@ while i!=0:
         b=i
 print("HCF:",a)
 
-      
+'''Print the largest digit in the given number.'''
+n=int(input("Enter a number:"))
+i=0
+largestdigit=0
+while i<n:
+  i=n%10
+  n=n//10
+  if i>largestdigit:
+     largestdigit=i  
+  
+
+print(largestdigit)
+
+
+
+     
 
