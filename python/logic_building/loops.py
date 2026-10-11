@@ -357,9 +357,8 @@ print("HCF:",a)
 
 '''Print the largest digit in the given number.'''
 n=int(input("Enter a number:"))
-i=0
 largestdigit=0
-while i<n:
+while n>0:
   i=n%10
   n=n//10
   if i>largestdigit:
@@ -369,6 +368,18 @@ while i<n:
 print(largestdigit)
 
 
+'''Print the smallest digit in the given number.'''
+n=int(input("Enter a number:"))
+smallest_digit=9
+
+while n>0:
+  i=n%10
+  n=n//10
+  if i<smallest_digit:
+     smallest_digit=i
+
+
+print(smallest_digit)
 
      
 
