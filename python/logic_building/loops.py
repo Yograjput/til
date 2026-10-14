@@ -392,6 +392,19 @@ while True:
   if i>=10:
     break
 
+'''Print the multiplication table of the entered number.'''
+n=int(input("Enter the number:"))
+i=0
 
+while True:
+  i=i+1
+  c=n*i
+  print(c)
+  
+
+  if i>=10:
+    break
+
+  
      
 
