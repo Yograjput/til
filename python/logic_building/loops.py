@@ -381,5 +381,17 @@ while n>0:
 
 print(smallest_digit)
 
+
+'''Print numbers from 1 to 10 using a do-while equivalent loop in python.'''
+i=0
+while True:
+  i=i+1
+  print(i)
+  
+
+  if i>=10:
+    break
+
+
      
 
