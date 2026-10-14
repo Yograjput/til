@@ -405,6 +405,21 @@ while True:
   if i>=10:
     break
 
-  
-     
+'''Keep taking the numbers until number 0 is entered. then print the sum of all those entered numbers.'''
 
+sum1=0
+i=0
+while True:
+  i=i+1
+  n=int(input("Enter a number:"))
+  sum1=sum1+n
+
+
+  
+
+  if n==0:
+    break
+
+
+
+print("Sum is:",sum1)
