@@ -423,3 +423,27 @@ while True:
 
 
 print("Sum is:",sum1)
+
+'''Keep taking the numbers until number 0 is entered. then print the greatest of all those entered numbers.'''
+sum1=0
+i=0
+while True:
+  i=i+1
+  n=int(input("Enter a number:"))
+  if sum1<n:
+    c=n
+    sum1=n
+  else:
+    c=sum1
+    
+  
+
+
+ 
+
+  if n==0:
+    break
+
+print(c)
+
+
