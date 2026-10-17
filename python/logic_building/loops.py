@@ -444,6 +444,28 @@ while True:
   if n==0:
     break
 
-print(c)
+print("Greatest of the numbers is:",c)
 
+
+
+
+'''Print and count the number of digits for the entered number.'''
+n=int(input("Enter a number:"))
+count=0
+i=1
+while True:
+
+  i=n%10
+  n=n//10
+  count=count+1
+  
+  
+
+
+ 
+
+  if n==0:
+    break
+
+print(count)
 
