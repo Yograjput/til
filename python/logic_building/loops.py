@@ -469,3 +469,28 @@ while True:
 
 print(count)
 
+
+
+'''Print the reverse of the entered number using do while loop.'''
+n=int(input("Enter a number:"))
+rev=0
+i=1
+while True:
+  i=n%10
+  
+  n=n//10
+  rev=rev*10+i
+  
+  
+  
+
+
+ 
+
+  if n==0:
+    break
+
+print(rev)
+
+
+
