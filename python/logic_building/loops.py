@@ -492,5 +492,29 @@ while True:
 
 print(rev)
 
+'''Determine whether the number is a palindrome or not.'''
+n=int(input("Enter a number:"))
+m=n
+rev=0
+i=1
+while True:
+  i=n%10
+  
+  n=n//10
+  rev=rev*10+i
+  
+  
+  
+
+
+ 
+
+  if n==0:
+    break
+
+if rev==m:
+  print("We have a palindrome")
+else:
+  print("We don't have a palindrome")
 
 
