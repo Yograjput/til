@@ -517,4 +517,23 @@ if rev==m:
 else:
   print("We don't have a palindrome")
 
+'''Determine whether the number is armstrong number or not.'''
+n=input("Enter a number:")
+m=len(n)
+n=int(n)
+a=n
+
+count=0
+i=1
+while True:
+  i=n%10
+  n=n//10
+  count=count+i**m
+  if n==0:
+    break
+
+if a==count:
+  print("Armstrong Number.")
+else: 
+  print("Not a armstrong number")
 
