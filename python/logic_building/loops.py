@@ -588,3 +588,35 @@ while True:
 
 print("HCF IS:"+str(n))
 
+'''Write a menu driven program that allows the user to choose and perform different arithmetic operations.'''
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+print("""The Menu of operations is:
+      First for addition,
+      Second for Subtraction.
+      Third for Multiplication,
+      Fourth for Division.""")
+
+while True:
+  choice=int(input("Enter your choice."))
+  if choice==1:
+    c=a+b
+    print(c)
+    break
+  elif choice==2:
+    c=a-b
+    print(c)
+    break
+  elif choice==3:
+    c=a*b
+    print(c)
+    break
+  elif choice==4:
+    c=a/b
+    print(c)
+    break
+  else:
+    print("Enter a valid choice.")
+    break
+    
+ 
