@@ -549,7 +549,22 @@ while True:
   c=a+b
   a=b
   b=c
-  if i==n:
+  if i>=n:
     break
   
 print(a)
+
+
+'''Print the factorial of the given number.'''
+n=int(input("enter a number:"))
+i=0
+c=1
+
+while True:
+  i+=1
+  c=c*i
+
+  if i>=n:
+    break
+  
+print(c)
