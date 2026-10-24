@@ -568,3 +568,23 @@ while True:
     break
   
 print(c)
+
+'''Print the hcf/gcd of the given numbers.'''
+n=int(input("enter a number:"))
+m=int(input("enter a number:"))
+
+i=1
+
+while True:
+  i+=1
+  c=n%m
+  n=m
+  m=c
+  
+  
+  if c==0:
+    
+    break
+
+print("HCF IS:"+str(n))
+
