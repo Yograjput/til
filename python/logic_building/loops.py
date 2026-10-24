@@ -537,3 +537,19 @@ if a==count:
 else: 
   print("Not a armstrong number")
 
+'''Print the Fibonacci Series upto n terms.'''
+n=int(input("enter a number:"))
+i=0
+a=0
+b=1
+c=1
+
+while True:
+  i+=1
+  c=a+b
+  a=b
+  b=c
+  if i==n:
+    break
+  
+print(a)
