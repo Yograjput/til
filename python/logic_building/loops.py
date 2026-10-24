@@ -619,4 +619,22 @@ while True:
     print("Enter a valid choice.")
     break
     
+'''Keep taking numbers from the user, until an negative number is entered, then count how many positive numbers were entered.'''
+
+count=0
+
+while True:
+  choice=int(input("Enter your number."))
+  if choice>0:
+    count=count+1
+
+    
+
+
+  if not(choice>0):
+    print("Negative integers are prohibited!")
+    break
+    
  
+print(count)
+
