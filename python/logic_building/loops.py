@@ -638,3 +638,43 @@ while True:
  
 print(count)
 
+'''Find and print the sum of digits.'''
+n=int(input("Enter the number:"))
+
+sum1=0
+
+while True:
+  i=n%10
+  sum1=sum1+i
+  n=n//10
+
+  if not(n!=0):
+    break
+
+
+print(sum1)
+
+'''Calculate and print the sum of even digits and the sum of odd digits of the given number separately.'''
+n=int(input("Enter the number:"))
+
+sum2=0
+sum1=0
+while True:
+  i=n%10
+  if i%2==0:
+    sum2=sum2+i
+    n=n//10
+
+  else:
+    sum1=sum1+i
+    n=n//10
+    
+  
+  
+
+  if not(n!=0):
+    break
+
+
+print("The sum of odd digits:",sum1)
+print("The sum of even digits:",sum2)
