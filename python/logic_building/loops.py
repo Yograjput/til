@@ -683,6 +683,13 @@ print("The sum of even digits:",sum2)
 for i in range(1,11):
   print(i)
 
+'''Print the multiplication table of a given number.'''
+n=int(input("Enter the number:"))
+for i in range(1,11): 
+     i=n*i
+     print(i)
+
+
 
 
 
