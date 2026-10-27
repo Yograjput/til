@@ -704,7 +704,12 @@ for i in range(1,101):
   else:
     continue
 
-
-
+'''Calculate and print the factorial of the given number.'''
+n=int(input("Enter the number:"))
+c=1
+for i in range(1,n+1): 
+     c=c*i
+print(c)
+ 
 
 
