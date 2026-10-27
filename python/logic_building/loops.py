@@ -677,4 +677,14 @@ while True:
 
 
 print("The sum of odd digits:",sum1)
+
+
+'''Print the numbers from 1 to n using for loop.'''
+for i in range(1,11):
+  print(i)
+
+
+
+
+
 print("The sum of even digits:",sum2)
