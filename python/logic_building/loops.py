@@ -762,5 +762,18 @@ for i in range(n):
 print(a)
 print(b)
 
+'''Find and print the sum of Fibonacci Series.'''
+n=int(input("Enter a number:"))
+a=0
+b=1
+s1=0
+for i in range(n):
+  
+  c=a+b
+  s1=s1+c
+  a=b
+  b=c
+print(s1)
+
 
 
