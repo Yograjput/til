@@ -751,6 +751,16 @@ if count == 2:
 else:
     print("NO")
 
+'''Print the Fibonacci series upto required number of terms.'''
+n=int(input("Enter a number:"))
+a=0
+b=1
+for i in range(n):
+  c=a+b
+  a=b
+  b=c
+print(a)
+print(b)
 
 
 
