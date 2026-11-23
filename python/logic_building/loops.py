@@ -775,5 +775,32 @@ for i in range(n):
   b=c
 print(s1)
 
+'''Find and print all the factors of the given number.'''
+n=int(input("Enter a number:"))
+
+for i in range(1,n+1):
+  if n%i==0:
+    print(i)
+  
+'''Find and print the sum of Fibonacci Series.'''
+n=int(input("Enter a number:"))
+s2=0
+for i in range(1,n+1):
+  if n%i==0:
+    s2+=i
+
+print(s2)
+  
+'''Insert the elements of the list into Dictionary as their key and occurences.'''
+statuses = ["SUCCESS", "FAILED", "SUCCESS", "TIMEOUT", "SUCCESS", "FAILED"]
+counts={}
+for status in statuses:
+    if status in counts:
+        counts[status]+=1
+    else:
+        counts[status]=1
+
+print(counts)
+
 
 
